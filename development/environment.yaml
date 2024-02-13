@@ -1,0 +1,11 @@
+# conda env create -f environment.yaml
+name: sd
+channels:
+  - nvidia/label/cuda-11.8.0
+  - defaults
+dependencies:
+  - python=3.9
+  - cuda-nvcc
+  - cuda-toolkit
+  - cuda-runtime
+  - pip
